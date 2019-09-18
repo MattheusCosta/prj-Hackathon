@@ -1,0 +1,49 @@
+/* This is a CSS file */
+
+h3{
+  margin-left: 65px;
+}
+
+#btn2{
+padding: 40px;
+margin-top: 15px;
+margin-left: 30px; 
+background-image: url(../css/a.jpg)
+}
+
+#btn3{
+  padding: 40px;
+  margin-top: 15px;
+  margin-right: 30px; 
+  background-image: url(../css/a.jpg)
+}
+
+#btn4{
+  padding: 40px;
+  margin-top: 15px;
+  margin-left: 30px; 
+  background-image: url(../css/a.jpg)
+}
+
+
+#btn6{
+  padding: 40px;
+  margin-top: 15px;
+  margin-left: 30px; 
+  background-image: url(../css/a.jpg)
+}
+
+#btn7{
+  padding: 40px;
+  margin-top: 15px;
+  margin-right: 30px; 
+  background-image: url(../css/a.jpg)
+}
+
+#btn8{
+  padding: 40px;
+  margin-top: 15px;
+  margin-left: 30px; 
+  background-image: url(../css/a.jpg)
+}
+
