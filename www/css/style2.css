@@ -1,5 +1,7 @@
 body{
-  background-color:#829FD9;
+ opacity: 50%;
+ background-image: url(../css/13.jpg);
+ background-size: 100%;
 }
 @keyframes bounce {
   0%, 20%, 60%, 100%{
