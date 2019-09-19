@@ -1,0 +1,50 @@
+ body{
+   background-color: rgb(146, 204, 146);
+ }
+
+ @keyframes bounce {
+  0%, 20%, 60%, 100%{
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+
+  }
+  40%{
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+
+  }
+
+  80%{
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+
+  }
+}
+#btn1{
+animation: bounce 2s;
+text-align: center;
+background-color: none;
+}
+
+
+h1{
+margin-left: 60px;
+font-size: 40px;
+font-family: myFirstFont;
+}
+p{
+  margin-left: 50px;
+}
+#gif{
+  widht: 400px; 
+  height: 400px;
+  margin-left: -9px;
+}
+
+#btn1{
+  margin-left: 100px;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url("../css/abc.ttf");
+}
