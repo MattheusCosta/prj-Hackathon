@@ -1,3 +1,8 @@
+#map{
+  width: 100%; 
+  height: 300px;
+}
+
 #voltar{
 animation: bounce 2s;
 padding: 20px;

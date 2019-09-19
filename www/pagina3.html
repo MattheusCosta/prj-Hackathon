@@ -5,9 +5,26 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
     <link rel="stylesheet" href="components/loader.css">
+
+    <!-- Links para a API router -->
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+
+    <!-- Links para a API map -->
+    <!-- <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/> -->
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+    <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-map.js?key=lYrP4vF3Uk5zgTiGGuEzQGwGIVDGuy24"></script>
+    <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-geocoding.js?key=lYrP4vF3Uk5zgTiGGuEzQGwGIVDGuy24"></script> -->
+
     <script src="components/loader.js"></script>
 
-    
+    <!-- Código Jquery -->
+    <script src="components/jquery.min.js"></script>
+    <script src="components/teste.js"></script>
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style3.css">
   
@@ -93,6 +110,23 @@
     </li>
 </ul>
 
+  <div class="row">
+    <div class="col-xs-6">
+      <button id="pontoTuristico" value="Plataforma de Pesca">Mapa</button>
+    </div>
+    <div class="col-xs-6">
+      <button id="pontoTuristicoRota" value="Plataforma de Pesca">Rota</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <div id="map"></div>
+    </div>
+  </div>
    
 </body>
+
+<script >
+
+</script>
 </html>
