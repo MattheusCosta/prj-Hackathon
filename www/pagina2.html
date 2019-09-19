@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
     <link rel="stylesheet" href="components/loader.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="components/loader.js"></script>
 
 
@@ -28,34 +30,186 @@
 
 
       <div class="col-xs-6">
-           <a href="pagina3.html" class="btn btn-none btn-lg " role="button" id="btn2">Natureza</a>
+           <a class="btn btn-none btn-lg button" role="button" data-toggle="modal" data-target="#modalNatureza" id="btn2">Natureza</a>
         </div>
 
        <div class="col-xs-6">
-           <a href="pagina4.html" class="btn btn-none btn-lg " role="button" id="btn3">Esporte</a>
+            <a class="btn btn-none btn-lg button" role="button" data-toggle="modal" data-target="#modalEsporte" id="btn3">Esporte</a>
         </div>
 
         <div class="col-xs-6">
-           <a href="pagina5.html" class="btn btn-none btn-lg " role="button" id="btn4">Trilha</a>
+          <a class="btn btn-none btn-lg button" role="button" data-toggle="modal" data-target="#modalTrilha" id="btn4">Trilha</a>
         </div>
 
         <div class="col-xs-6">
-         <a href="pagina6.html" class="btn btn-none btn-lg " role="button" id="btn6">Artesanato</a>
+         <a class="btn btn-none btn-lg button" role="button" data-toggle="modal" data-target="#modalArtesanato" id="btn6">Artesanato</a>
         </div>
 
         <div class="col-xs-6">
-           <a href="pagina7.html" class="btn btn-none btn-lg " role="button" id="btn7">Pesca</a>
+          <a class="btn btn-none btn-lg button" role="button" data-toggle="modal" data-target="#modalPesca" id="btn7">Pesca</a>
         </div>
 
         <div class="col-xs-6">
-           <a href="pagina8.html" class="btn btn-none btn-lg " role="button" id="btn8">Parque</a>
+          <a class="btn btn-none btn-lg button" role="button" data-toggle="modal" data-target="#modalParque" id="btn8">Infantil/Parque</a>
         </div>
 
+        <!-- Modal Natureza -->
+        <div class="modal fade" id="modalNatureza" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Locais de Natureza</h4>
+              </div>
+              <div class="modal-body">
+                
+                <li><a href="pagina3.html">Mirante De Belvedere</a><br></li>
+                <li><a href="pagina4.html">Mirante Da Padroeira</a><br></li>
+                <li><a href="pagina5.html">Poço das Antas</a><br></li>
+                <li><a href="pagina6.html">Zona Rural</a><br></li>
+                <li><a href="pagina7.html">Aldeia Indígena</a><br></li>
+                
+
+                
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+          <!-- Modal Esporte -->
+        <div class="modal fade" id="modalEsporte" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Locais de Natureza</h4>
+              </div>
+              <div class="modal-body">
+                
+                <li><a href="pagina8.html">Skate Park</a><br></li>
+                <li><a href="pagina9.html">Quadra de Basquete</a><br></li>
+                <li><a href="pagina10.html">Pista de Skate Agenor de Campos</a><br></li>      
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+
+            <!-- Modal Trilha -->
+        <div class="modal fade" id="modalTrilha" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Locais de Natureza</h4>
+              </div>
+              <div class="modal-body">
+                
+                <li><a href="pagina11.html">Morro da Cialta</a><br></li>
+                <li><a href="pagina12.html">Barragem das Antas</a><br></li>
+                <li><a href="pagina13.html">Fazenda Rondônia</a><br></li>      
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      
+
+
+          <!-- Modal Artesanato -->
+        <div class="modal fade" id="modalArtesanato" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Locais de Natureza</h4>
+              </div>
+              <div class="modal-body">
+                
+                <li><a href="pagina14.html">Feira de Artesanato Centro</a><br></li>
+                <li><a href="pagina15.html">Feira das Artes</a><br></li>
+                <li><a href="pagina16.html">Feira de Artesanato Agenos de Campos</a><br></li>     
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+
+          <!-- Modal Pesca -->
+        <div class="modal fade" id="modalPesca" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Locais de Natureza</h4>
+              </div>
+              <div class="modal-body">
+                
+                <li><a href="pagina17.html">Plataforma</a><br></li>
+                <li><a href="pagina18.html">Arquibancada do Pescador</a><br></li>
+                <li><a href="pagina19.html">Praia</a><br></li>      
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+
+          <!-- Modal Parque-->
+        <div class="modal fade" id="modalParque" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Locais de Natureza</h4>
+              </div>
+              <div class="modal-body">
+                
+                <li><a href="pagina20.html">Praça Dudu Samba</a><br></li>
+                <li><a href="pagina21.html">Parque Ecológico Tribuna</a><br></li>
+                <li><a href="pagina22.html">Centro Cultural Raul Cortez</a><br></li>  
+                <li><a href="pagina123.html">Park Infantil</a><br></li>      
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
       
 
     </div>
-    
 
-  
 </body>
 </html>
