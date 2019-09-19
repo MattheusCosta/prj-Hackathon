@@ -1,6 +1,7 @@
 /**/  
 h3{
 margin-left: 50px;
+font-family: myFirstFont;
 }
 p{
   margin-left: 50px;
@@ -8,4 +9,8 @@ p{
 
 #btn1{
   margin-left: 100px;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url("../css/abc.ttf");
 }

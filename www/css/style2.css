@@ -1,49 +1,108 @@
-/* This is a CSS file */
+body{
+  background-color:#829FD9;
+}
+@keyframes bounce {
+  0%, 20%, 60%, 100%{
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+
+  }
+  40%{
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+
+  }
+
+  80%{
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+
+  }
+}
 
 h3{
-  margin-left: 65px;
+  margin-left: 8vh;
+  font-size: 50px;
+  font-family: myFirstFont;
+  -webkit-text-stroke-width: 1px; /* largura da borda */
+  -webkit-text-stroke-color: #fff; /* cor da borda */
+  color: #fff;
+  }
+
+#voltar{
+animation: bounce 2s;
+padding: 20px;
+margin-top: 5px;
+margin-left: 15px; 
+background-image: url(../css/seta-para-tras.png);
+background-size: 100%;
 }
 
 #btn2{
+animation: bounce 2,5s;
 padding: 40px;
 margin-top: 15px;
 margin-left: 30px; 
-background-image: url(../css/a.jpg)
+background-image: url(../css/onda.png);
+background-size: 105%;
+font-family: myFirstFont;
+color: #fff;
 }
 
 #btn3{
-  padding: 40px;
-  margin-top: 15px;
-  margin-right: 30px; 
-  background-image: url(../css/a.jpg)
-}
-
-#btn4{
+  animation: bounce 2,5s;
   padding: 40px;
   margin-top: 15px;
   margin-left: 30px; 
-  background-image: url(../css/a.jpg)
+  background-image: url(../css/corrida.png);
+  background-size: 102%;
+  width: 65%;
+  font-family: myFirstFont;
+}
+
+#btn4{
+  animation: bounce 2s;
+  padding: 40px;
+  margin-top: 15px;
+  margin-left: 30px; 
+  background-image: url(../css/caminhada.png);
+  background-size: 100%;
+  font-family: myFirstFont;
 }
 
 
 #btn6{
+  animation: bounce 2s;
   padding: 40px;
   margin-top: 15px;
   margin-left: 30px; 
-  background-image: url(../css/a.jpg)
+  background-image: url(../css/argila.png);
+  background-size: 100%;
+  width: 80%;
+  font-family: myFirstFont;
 }
 
 #btn7{
-  padding: 40px;
-  margin-top: 15px;
-  margin-right: 30px; 
-  background-image: url(../css/a.jpg)
-}
-
-#btn8{
+  animation: bounce 2s;
   padding: 40px;
   margin-top: 15px;
   margin-left: 30px; 
-  background-image: url(../css/a.jpg)
+  background-image: url(../css/pescaria.png);
+  background-size: 95%;
+  width: 63%;
+  font-family: myFirstFont;
 }
 
+#btn8{
+  animation: bounce 2s;
+  padding: 40px;
+  margin-top: 15px;
+  margin-left: 30px; 
+  background-image: url(../css/parque.png);
+    background-size: 95%;
+    font-family: myFirstFont;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url("../css/abc.ttf");
+}
