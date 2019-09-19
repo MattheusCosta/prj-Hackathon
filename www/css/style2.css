@@ -124,3 +124,7 @@ border-width: 8px;
   font-family: myFirstFont;
   src: url("../css/abc.ttf");
 }
+.button{
+  width: 80%;
+  min-width: 80%;
+}
