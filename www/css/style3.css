@@ -1,15 +1,56 @@
+* {
+  margin: 0;
+}
+h3{
+  text-align: center;
+  font-size: 30px;
+  font-family: myFirstFont1;
+  color: rgb(29, 29, 29);
+  margin-top:-10px;
+  margin-bottom: 50px;
+  
+  }
+body{
+ opacity: 50%;
+ background-color: rgb(204, 204, 204);
+ background-size: 100%;
+ overflow-x: hidden;
+ margin-top: 10px;
+}
+@keyframes bounce {
+  0%, 20%, 60%, 100%{
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+
+  }
+  40%{
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+
+  }
+
+  80%{
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+
+  }
+}
+#b1{
+  margin-top: 0%;
+  margin-left: 120px;
+  nimation: bounce 2s;
+}
+
+
 #voltar{
 animation: bounce 2s;
 padding: 20px;
-margin-top: 5px;
+margin-top: 10px;
 margin-left: 15px; 
 background-image: url(../css/seta-para-tras.png);
 background-size: 100%;
+background-repeat: no-repeat;
 }
-
-@import url(https://fonts.googleapis.com/css?family=Varela+Round);
-
-html, body { background: #333 url("https://codepen.io/images/classy_fabric.png"); }
 
 .slides {
     padding: 0;
@@ -120,4 +161,13 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,
 input#img-5:checked ~ .nav-dots label#img-dot-5,
 input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	background: rgba(0, 0, 0, 0.8);
+}
+
+p{
+  font-family: myfirstfont1;
+}
+
+@font-face {
+  font-family: myFirstFont1;
+  src: url("../css/abc1.ttf");
 }

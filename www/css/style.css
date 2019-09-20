@@ -1,5 +1,11 @@
- body{
-   background-color: rgb(146, 204, 146);
+* {
+ 
+}
+ body, html {
+   width: 100%;
+   height:100%;
+   background-color: rgb(120, 212, 120);
+   overflow-x: hidden;
  }
 
  @keyframes bounce {
@@ -22,29 +28,34 @@
 }
 #btn1{
 animation: bounce 2s;
-text-align: center;
-background-color: none;
+font-size: 40px;
+font-color: gray;
+font-family: myFirstFont;
 }
 
 
 h1{
-margin-left: 60px;
-font-size: 40px;
+font-size: 60px;
 font-family: myFirstFont;
 }
-p{
-  margin-left: 50px;
-}
+
 #gif{
   widht: 400px; 
   height: 400px;
-  margin-left: -9px;
-}
-
-#btn1{
-  margin-left: 100px;
 }
 @font-face {
+  
   font-family: myFirstFont;
   src: url("../css/abc.ttf");
+}
+
+#grid-menu {
+  display: flex;
+  justify-content: center;
+  
+  text-align: center;
+}
+
+#conteudo {
+
 }

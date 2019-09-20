@@ -1,7 +1,12 @@
+* {
+  margin: 0;
+}
 body{
  opacity: 50%;
  background-image: url(../css/13.jpg);
  background-size: 100%;
+ overflow-x: hidden;
+ margin-top: 10px;
 }
 @keyframes bounce {
   0%, 20%, 60%, 100%{
@@ -22,6 +27,12 @@ body{
   }
 }
 
+a{
+  font-family: myfirstfont1;
+  color: rgb(20, 19, 19);
+  font-size: 15px;
+}
+
 h3{
   margin-left: 8vh;
   font-size: 50px;
@@ -29,54 +40,64 @@ h3{
   -webkit-text-stroke-width: 1px; /* largura da borda */
   -webkit-text-stroke-color: #fff; /* cor da borda */
   color: #fff;
+  margin-top:-10px;
+  margin-bottom: 50px;
+  
   }
 
 #voltar{
 animation: bounce 2s;
 padding: 20px;
-margin-top: 5px;
+margin-top: 10px;
 margin-left: 15px; 
 background-image: url(../css/seta-para-tras.png);
 background-size: 100%;
+background-repeat: no-repeat;
 }
+
+
 
 #btn2{
 animation: bounce 2s;
 padding: 40px;
-margin-top: 15px;
-margin-left: 30px; 
+margin-top:10px;
+margin-left: 20px; 
 background-image: url(../css/onda.png);
 background-size: 105%;
 font-family: myFirstFont;
-color: black;
+color: white;
 border-color: white;
 border-width: 8px;
-
+opacity: 0.8;
 }
 
 #btn3{
   animation: bounce 2s;
   padding: 40px;
-  margin-top: 15px;
-  margin-left: 30px; 
+  margin-top: 10px;
+  margin-left: 10px; 
   background-image: url(../css/corrida.png);
   background-size: 102%;
   width: 65%;
   font-family: myFirstFont;
+  color: white;
   border-color: white;
 border-width: 8px;
+opacity: 0.8;
 }
 
 #btn4{
   animation: bounce 2s;
   padding: 40px;
-  margin-top: 15px;
-  margin-left: 30px; 
+  margin-top: 10px;
+  margin-left: 20px; 
   background-image: url(../css/caminhada.png);
   background-size: 100%;
   font-family: myFirstFont;
+  color: white;
   border-color: white;
   border-width: 8px;
+  opacity: 0.8;
   
 }
 
@@ -84,47 +105,58 @@ border-width: 8px;
 #btn6{
   animation: bounce 2s;
   padding: 40px;
-  margin-top: 15px;
-  margin-left: 30px; 
+  margin-top:10px;
+  margin-left: 10px; 
   background-image: url(../css/argila.png);
   background-size: 100%;
   width: 80%;
   font-family: myFirstFont;
+  color: white;
   border-color: white;
   border-width: 8px;
+  opacity: 0.8;
 
 }
 
 #btn7{
   animation: bounce 2s;
   padding: 40px;
-  margin-top: 15px;
-  margin-left: 30px; 
+  margin-top: 10px;
+  margin-left: 20px; 
   background-image: url(../css/pescaria.png);
   background-size: 95%;
   width: 63%;
   font-family: myFirstFont;
+  color: white;
   border-color: white;
 border-width: 8px;
+opacity: 0.8;
 }
 
 #btn8{
   animation: bounce 2s;
   padding: 40px;
-  margin-top: 15px;
-  margin-left: 30px; 
+  margin-top: 10px;
+  margin-left: 10px; 
   background-image: url(../css/parque.png);
     background-size: 95%;
     font-family: myFirstFont;
+    color: white;
     border-color: white;
     border-width: 8px;
+    opacity: 0.8;
 
 }
 @font-face {
   font-family: myFirstFont;
   src: url("../css/abc.ttf");
 }
+@font-face {
+  font-family: myFirstFont1;
+  src: url("../css/abc1.ttf");
+}
 .button{
   width: 80%;
   min-width: 80%;
+   
 }
