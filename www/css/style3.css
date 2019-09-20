@@ -12,7 +12,7 @@ h3{
   }
 body{
  opacity: 50%;
- background-color: rgb(204, 204, 204);
+ background-color: rgb(227, 227, 228);
  background-size: 100%;
  overflow-x: hidden;
  margin-top: 10px;
@@ -165,6 +165,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 p{
   font-family: myfirstfont1;
+  font-size:20px;
 }
 
 @font-face {
